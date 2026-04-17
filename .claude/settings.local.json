@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 *)",
+      "Bash(pip show *)",
+      "Skill(claude-api)",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(curl -sL https://github.com/cli/cli/releases/download/v2.65.0/gh_2.65.0_linux_amd64.tar.gz)",
+      "Bash(tar -xz -C /tmp)",
+      "Bash(sudo mv *)",
+      "Bash(gh --version)",
+      "Bash(mv /tmp/gh_2.65.0_linux_amd64/bin/gh ~/.local/bin/gh)",
+      "Bash(export PATH=\"$HOME/.local/bin:$PATH\")",
+      "Bash(git init *)",
+      "Bash(git add *)"
+    ]
+  }
+}
